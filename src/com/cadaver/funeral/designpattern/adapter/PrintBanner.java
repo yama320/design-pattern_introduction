@@ -3,14 +3,15 @@ package com.cadaver.funeral.designpattern.adapter;
 /**
  * Created by mitsuo on 2015/10/13.
  */
-public class PrintBanner extends Banner implements Print {
+public class PrintBanner extends Print {
+    private Banner banner;
     public PrintBanner(String  string) {
-        super(string);
+        this.banner = new Banner(string);
     }
     public void printWeak() {
-        showWithParen();
+        banner.showWithParen();
     }
     public void printStrong() {
-        showWithAster();
+        banner.showWithAster();
     }
 }
