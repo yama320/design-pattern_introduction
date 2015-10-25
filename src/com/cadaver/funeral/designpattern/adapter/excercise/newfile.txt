@@ -1,0 +1,5 @@
+#test
+#Sun Oct 25 14:35:24 JST 2015
+day=25
+year=2015
+month=10
