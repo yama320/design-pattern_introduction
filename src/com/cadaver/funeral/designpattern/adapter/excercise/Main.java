@@ -10,9 +10,9 @@ public class Main {
         FileIO f = new FileProperties();
         try {
             f.readFromFile("D:\\git\\design-pattern_introduction\\src\\com\\cadaver\\funeral\\designpattern\\adapter\\excercise\\file.txt");
-            f.setValue("year", "2015");
-            f.setValue("month", "10");
-            f.setValue("day", "25");
+            f.setValue("year", "2016");
+            f.setValue("month", "09");
+            f.setValue("day", "21");
             f.writeToFile("D:\\git\\design-pattern_introduction\\src\\com\\cadaver\\funeral\\designpattern\\adapter\\excercise\\newfile.txt");
         } catch (IOException e) {
             e.printStackTrace();

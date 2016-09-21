@@ -1,5 +1,5 @@
-#test
-#Sun Oct 25 14:35:24 JST 2015
-day=25
-year=2015
-month=10
+#written by FileProperties
+#Wed Sep 21 13:30:02 JST 2016
+day=21
+year=2016
+month=09
